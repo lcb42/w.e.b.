@@ -1,0 +1,34 @@
+html {
+	min-height:100%;
+	position: relative;
+}
+
+
+body {
+    background: linear-gradient(#343A40, lightblue);
+	height: 100%;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+
+p {
+	color: lightgrey;
+}
+
+main {
+	position: absolute;
+}
+
+.card {
+	margin: 10px 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: #00ff40;
+	text-align: center;
+}
+
+.footer {
+	text-align: center;
+}
