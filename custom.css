@@ -24,7 +24,6 @@ main {
 
 .card {
 	margin: 10px 0px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 	color: #00ff40;
 	text-align: center;
 }
@@ -33,6 +32,10 @@ main {
 	text-align: center;
 }
 
-titleImage {
-	background-color: #000000;
+.shadow {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.no-border {
+	border: none;
 }
